@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>progettoSettimanale6</title>
+    <title>Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
@@ -70,16 +70,17 @@
     </header>
     <div class="container fluid">
         <div class="row">
-            <div class="col-4 border border-white">
+            <div class="col-4">
             </div>
-            <div class="col-4 border border-danger">
-                <h1>Edit Profile</h1>
+            <div class="col-4 ">
+                <h1 class="text-white">Edit Profile</h1>
+                <hr class="text-secondary">
                 <div> <img src="assets/avatar.png" class="img-fluid"></div>
-                <input type="text" class="form-control bg-secondary rounded-0" placeholder="">
-                <div>
+                <input type="text" class="editForm form-control bg-secondary rounded-0" placeholder="">
+                <div class="my-4">
                     <h4 class="text-secondary">Language:</h4>
                     <div class="dropdown ms-1">
-                        <button class="btn dropdown-toggle border-secondary rounded-0" type="button" id="dropdownGenres"
+                        <button class="btn dropdown-toggle border-secondary  rounded-0" type="button" id="dropdownGenres"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Language
                         </button>
@@ -91,37 +92,37 @@
                     </div>
                 </div>
                 <hr class="text-secondary">
-                <div>
+                <div class="my-4">
                     <h4>Maturity Settings:</h4>
-                    <button type="button" class="btn btn-secondary"><h6>ALL MATURITY SETTINGS</h6></button>
-                    <p>Shows files for all maturity settings for this profile</p>
-                    <button type="button" class="btn btn-secondary">Edit</button>
+                    <button type="button" class="btn btn-dark rounded-0"><h6 class="fw-bold">ALL MATURITY SETTINGS</h6></button>
+                    <p class="pt-2 text-white">Shows files for all maturity settings for this profile</p>
+                    <button type="button" class="btn btn-secondary bg-transparent rounded-0 text-secondary">EDIT</button>
                 </div>
                 <hr class="text-secondary">
-                <h4>Autoplay Controls:</h4>
+                <h4 class="text-secondary">Autoplay Controls:</h4>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <input class="form-check-input rounded-0" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
                       Autoplay next episode in a series on all devices
                     </label>
-                  </div>
+                  </div class>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <input class="form-check-input  rounded-0" type="checkbox" value="" id="flexCheckChecked" checked>
                     <label class="form-check-label" for="flexCheckChecked">
                       Autoplay next episode in a series on al devices
                     </label>
                   </div>
                 <hr class="text-secondary">
                 <div class="d-lg-flex">
-                    <button type="button" class="btn btn-secondary">Save</button>
-                    <button type="button" class="btn btn-secondary">Cancel</button>
-                    <button type="button" class="btn btn-secondary">Delete Profile</button>
+                    <button type="button" class="btn bg-trasparent text-secondary border-secondary rounded-0 my-1 mx-lg-2">Save</button>
+                    <button type="button" class="btn bg-trasparent text-secondary border-secondary rounded-0 my-1 mx-lg-2">Cancel</button>
+                    <button type="button" class="btn bg-trasparent text-secondary border-secondary rounded-0 my-1 mx-lg-2">Delete Profile</button>
                 </div>
 
 
 
             </div>
-            <div class="col-4 border border-warning">
+            <div class="col-4">
             </div>
         </div>
     </div>
