@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+/*header*/
+
+header, #headerbutton, .dropdown-menu {
+    background-color: black;
+}
+
+.navbar-brand {
+	width: 20%;
+}
+
+.navbar-brand img {
+	max-width: 70%;
+}
+#imgProfile {
+    max-width: 10%;
+}
+#divRightHeader {
+    width: 40%;
+}
+.imgdrop {
+    width: 20%;
+}
+.imgC {
+    max-width: 100%;
+}
+
