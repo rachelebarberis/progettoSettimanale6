@@ -12,24 +12,21 @@ html, body {
 header, #headerbutton, .dropdown-menu {
     background-color: black;
 }
-
 .navbar-brand {
 	width: 20%;
+	margin-right: 5px;
 }
 
 .navbar-brand img {
-	max-width: 70%;
+	max-width: 60%;
 }
 #imgProfile {
-    max-width: 10%;
+    max-width: 30%;
 }
 #divRightHeader {
-    width: 40%;
-}
-.imgdrop {
     width: 20%;
 }
-.imgC {
-    max-width: 100%;
+.imgdrop {
+    width: 30%;
 }
 

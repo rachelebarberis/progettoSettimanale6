@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progettoSettimanale6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header class="container-fluid sticky-top top-0 pb-4">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand d-lg-flex justify-content-lg-center" href="index.html">
+                    <img src="assets/netflix_logo.png" alt="Logo" class="imgLogo" />
+                </a>
+                <button class="navbar-toggler border-secondary" id="headerbutton" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Tv Shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">RA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">My List</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column flex-lg-row justify-content-lg-end" id="divRightHeader">
+                        <i class="bi bi-search p-1 text-white"></i>
+                        <a href="#" class="p-1 text-secondary text-decoration-none">KIDS</a>
+                        <i class="bi bi-bell-fill p-1 text-secondary"></i>
+                        <div class="dropdown">
+                            <div class="d-flex" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/avatar.png" alt="foto profilo" id="imgProfile" class="pt-1">
+                                <i class="bi bi-caret-down-fill text-secondary pt-1 ms-2"></i>
+                                <ul class="dropdown-menu mt-2 border-dark">
+                                    <div class="d-flex"><img src="assets/avatar.png" class="imgdrop">
+                                        <p class="ps-1 pt-2 text-white">Epicoder</p>
+                                    </div>
+                                    <li><a class="dropdown-item text-white" href="#">Manage Profiles</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Account</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Help Center</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item text-white" href="#">Signout Netflix</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container fluid">
+        <div class="row">
+            <div class="col-4 border border-white">
+            </div>
+            <div class="col-4 border border-danger">
+                <h1>Edit Profile</h1>
+                <div> <img src="assets/avatar.png" class="img-fluid"></div>
+                <input type="text" class="form-control bg-secondary rounded-0" placeholder="">
+                <div>
+                    <h4 class="text-secondary">Language:</h4>
+                    <div class="dropdown ms-1">
+                        <button class="btn dropdown-toggle border-secondary rounded-0" type="button" id="dropdownGenres"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownGenres">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item" href="#">Italian</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="text-secondary">
+                <div>
+                    <h4>Maturity Settings:</h4>
+                    <button type="button" class="btn btn-secondary"><h6>ALL MATURITY SETTINGS</h6></button>
+                    <p>Shows files for all maturity settings for this profile</p>
+                    <button type="button" class="btn btn-secondary">Edit</button>
+                </div>
+                <hr class="text-secondary">
+                <h4>Autoplay Controls:</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Autoplay next episode in a series on all devices
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Autoplay next episode in a series on al devices
+                    </label>
+                  </div>
+                <hr class="text-secondary">
+                <div class="d-lg-flex">
+                    <button type="button" class="btn btn-secondary">Save</button>
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                    <button type="button" class="btn btn-secondary">Delete Profile</button>
+                </div>
+
+
+
+            </div>
+            <div class="col-4 border border-warning">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
