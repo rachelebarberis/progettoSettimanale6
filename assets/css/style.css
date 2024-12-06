@@ -30,6 +30,8 @@ header, #headerbutton, .dropdown-menu {
     width: 30%;
 }
 
+
+
 /*profile*/
 
 h1 {
@@ -41,7 +43,7 @@ input {
 }
 
 input:focus {
-    background-color:white !important; /* Sostituisci var(--MainText) con il valore reale se non stai usando CSS Variables */
+    background-color:white !important; 
 }
 
 input::placeholder {
